@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+}
+.menu-container {
+  color: black;  
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+#home-container > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 80%;
+}
+
+#home-container > h2 {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.gridhome-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 200px 200px 200px;
+  grid-gap: 50px;
+  padding: 20px;
+}
+.gridhome-container > div {
+  text-align: center;
+  font-size: 30px;
+}
+
+.gridmeals-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 200px 200px 200px;
+  grid-gap: 120px;
+  padding: 20px;
+}
+
+.gridmeals-container > div {
+  text-align: center;
+  font-size: 30px;
+}
+
+#searchbar {
+  width: 150px;
+  height: 30px;
+  border-radius: 25px;
+}
+
+footer {
+  margin-top: 10%;
+  color: black;
+  background-color: #74d14c;  
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#home-container {
+  font-size: 25px;
+  padding: 1.5%;
+  background-color: white;
+}
+
+#meal-container, #meals-container, #mealform-container, #mealsform-container {
+  font-size: 25px;
+  padding: 2.5%;
+  background-color: white;
+}
+
+#mealsform-container > h3, #mealform-container > h3 {
+  margin-bottom: 1%;
+}
+
+#mealform-container {
+  display: flex;
+  justify-content: space-around;   
+}
+
+#meal-container > p {
+  text-align: left;
+}
+
+#meal-container > h1, #meals-container > h1 {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+#mealform-container, #mealsform-container{
+  font-size: 30px;
+  border-radius: 5px;
+  background-color: #74d14c;   
+  padding: 20px;
+  margin-left: 15%;
+  margin-right:15%;
+  width: 70%;
+}
+
+#mealsform-container > form > button {
+  border: none; /*rewriting standard style, it is necessary to be able to change the size*/
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+}
+
+.reservemeal > form > button, .reviewmeal > form > button{
+  border: none; /*rewriting standard style, it is necessary to be able to change the size*/
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+}
